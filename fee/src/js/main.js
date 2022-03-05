@@ -1,10 +1,7 @@
 import create from '@verndale/core';
 
 const modules = [
-  {
-    name: 'sampleModule',
-    loader: () => import('./modules/sample/sampleModule')
-  }
+  { name: 'cartModule', loader: () => import('./modules/cart/cart') }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
