@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Dresscode.Feature.Content.Models;
 using Dresscode.Foundation.Services;
 using Dresscode.Foundation.Services.OrderCloud;
+using OrderCloud.SDK;
+
 namespace Dresscode.Feature.Content.Controllers
 {
     public class ProductListingController : Controller
@@ -14,8 +17,8 @@ namespace Dresscode.Feature.Content.Controllers
 
         public ActionResult Index()
         {
-            var products = _orderCloudService.ViewProducts();
-            return View();
+            var products = _orderCloudService.ViewProducts().Result.Items.ToList();
+            return View(products);
         }
 
         [HttpPost]

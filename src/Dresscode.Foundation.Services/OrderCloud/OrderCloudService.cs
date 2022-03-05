@@ -57,17 +57,18 @@ namespace Dresscode.Foundation.Services.OrderCloud
 
         public async Task<ListPageWithFacets<BuyerProduct>> ViewProducts()
         {
-            var buyerProducts = new ListPageWithFacets<BuyerProduct>();
+            var res = new ListPageWithFacets<BuyerProduct>();
             try
             {
-                buyerProducts = await CreateBuyerClient().Me.ListProductsAsync();
+                var task = Task.Run(async () => await CreateBuyerClient().Me.ListProductsAsync());
+                res = task.Result;
             }
-            catch (OrderCloudException ex)
+            catch (Exception ex)
             {
                 Sitecore.Diagnostics.Log.Error("Error in OrderCloud API", ex.InnerException, this);
             }
 
-            return buyerProducts;
+            return res;
         }
 
 
