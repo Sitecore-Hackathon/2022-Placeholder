@@ -12,7 +12,6 @@ namespace Dresscode.Feature.Content.Controllers
 {
     public class ProductListingController : Controller
     {
-
         private readonly IOrderCloudService _orderCloudService = new OrderCloudService();
 
         public ActionResult Index()

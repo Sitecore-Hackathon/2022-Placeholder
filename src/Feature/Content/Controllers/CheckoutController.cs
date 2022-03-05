@@ -45,7 +45,7 @@ namespace Dresscode.Feature.Content.Controllers
         [HttpPost]
         public ActionResult Purchase(BillingInformation billingInformation)
         {
-            var orderNumber = "6662";
+            var orderNumber = new Random().Next(123,99999).ToString();
             _emailService.AddSubscriber(billingInformation.Email, billingInformation.Name, orderNumber);
             return Redirect("~/Home");
         }
