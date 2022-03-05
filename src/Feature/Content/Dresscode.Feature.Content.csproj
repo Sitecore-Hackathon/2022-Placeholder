@@ -284,10 +284,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
+    <Compile Include="Pipelines\LoadRoutes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Component.cshtml" />
+    <Content Include="App_Config\include\LoadRoutes.config" />
     <None Include="packages.config" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
@@ -299,7 +303,6 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
