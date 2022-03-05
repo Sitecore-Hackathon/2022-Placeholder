@@ -8,12 +8,36 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1, width=device-width, user-scalable=no">
+    <title>DressCode</title>
+    <link rel="stylesheet" href="/css/styles.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" media="print" onload="this.media='all'">
 </head>
 <body>
-<div>
-    @Html.Sitecore().Placeholder("main")
-</div>
+    <div class="container py-3">
+        @Html.Sitecore().Placeholder("header")
+        <main>
+            @Html.Sitecore().Placeholder("main")
+        </main>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            @Html.Sitecore().Placeholder("footer")
+        </footer>
+
+        <script>
+            var ajax = new XMLHttpRequest();
+            ajax.open("GET", "/images/svgsheet.svg", true);
+            ajax.send();
+            ajax.onload = function () {
+                var div = document.createElement("div");
+                div.style.display = 'none';
+                div.innerHTML = ajax.responseText;
+                document.body.insertBefore(div, document.body.childNodes[0]);
+            }
+        </script>
+        <script src="/js/vendors~main.bundle.js"></script>
+        <script src="/js/main.bundle.js"></script>
+    </div>
 </body>
 </html>

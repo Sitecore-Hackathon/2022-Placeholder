@@ -305,13 +305,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Component.cshtml" />
     <Content Include="App_Config\include\LoadRoutes.config" />
     <Content Include="App_Config\include\Dresscode.Feature.Content.ServicesConfigurator.config" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\ProductListing\Index.cshtml" />
+    <Content Include="Views\Header.cshtml" />
+    <Content Include="Views\Footer.cshtml" />
+    <Content Include="Views\Hero.cshtml" />
+    <Content Include="Views\ProductGrid.cshtml" />
+    <Content Include="Views\ProductDetail.cshtml" />
+    <Content Include="Views\Cart.cshtml" />
+    <Content Include="Views\Checkout.cshtml" />
+    <Content Include="Views\ThankYou.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

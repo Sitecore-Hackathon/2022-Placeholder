@@ -1,0 +1,43 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div class="container cart-module" data-module="cartModule" data-endpoint="https://private-b8de3-2022placeholder.apiary-mock.com/add-to-cart">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Lorem Ipsum 1</li>
+        </ol>
+    </nav>
+
+    <div class="row g-lg-5 py-4">
+        <div class="col-lg-7 text-center text-lg-start">
+            <div class="cart-module__images">
+                <div class="cart-module__image-front">
+                    <img src="https://via.placeholder.com/900x600" alt="Image">
+                </div>
+              
+                <div class="cart-module__image-back">
+                    <img src="https://via.placeholder.com/900x600" alt="Image">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+            <div class="p-4 p-md-5 border rounded-3 bg-light">
+                <h1>Lorem Ipsum 1</h1>
+                <h2>$19.75</h2>
+                <hr class="my-4">
+                <button class="w-100 btn btn-primary cart-module__atc" type="button">
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    Add to Cart
+                </button>
+                <hr class="my-4">
+                <small class="text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare molestie mauris, porta pellentesque justo condimentum et. Maecenas aliquam magna eget felis tincidunt aliquam.
+                </small>
+            </div>
+        </div>
+    </div>
+</div>

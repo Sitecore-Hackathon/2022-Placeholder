@@ -287,6 +287,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\styles.css" />
+    <Content Include="images\logo-verndale.png" />
+    <Content Include="images\svgsheet.svg" />
+    <Content Include="js\main.bundle.js" />
+    <Content Include="js\vendors~main.bundle.js" />
     <Content Include="Views\Layout\MainLayout.cshtml" />
     <None Include="packages.config" />
     <None Include="Web.config" />
@@ -304,7 +309,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Feature\Content\Dresscode.Feature.Content.csproj">

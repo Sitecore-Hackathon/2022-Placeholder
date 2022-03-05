@@ -1,0 +1,52 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div class="container py-5 cart-module" data-module="cartModule">
+    <div class="row g-lg-5">
+        <div class="col-md-7 col-lg-8">
+            <div class="row cart-module__row">
+                <div class="col-lg-3 cart-module__image">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/600x400" alt="Image">
+                    </a>
+                </div>
+
+                <div class="col-lg-9 cart-module__info">
+                    <h5><a href="#" class="link-secondary">Product title 1</a></h5>
+                    <p class="card-text">1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row cart-module__row">
+                <div class="col-lg-3 cart-module__image">
+                    <a href="#">
+                        <img src="https://via.placeholder.com/600x400" alt="Image">
+                    </a>
+                </div>
+
+                <div class="col-lg-9 cart-module__info">
+                    <h5><a href="#" class="link-secondary">Product title 2</a></h5>
+                    <p class="card-text">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mx-auto col-md-5 col-lg-4">
+            <div class="p-3 p-md-4 border rounded-3 bg-light">
+                <big>
+                    <span><b>Sub Total:</b> $139.99</span>
+                </big>
+                <hr class="my-4">
+                <button class="w-100 btn btn-lg btn-primary cart-module__atc" type="button">
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    Proceed to checkout
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
