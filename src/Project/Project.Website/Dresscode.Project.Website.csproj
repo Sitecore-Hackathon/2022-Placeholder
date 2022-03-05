@@ -304,6 +304,12 @@
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Feature\Content\Dresscode.Feature.Content.csproj">
+      <Project>{f797e101-7a49-45a4-9fb1-c2e4107b1981}</Project>
+      <Name>Dresscode.Feature.Content</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
