@@ -1,0 +1,12 @@
+{
+    "namespace": "Feature.Test",
+    "references": ["Foundation.*"],
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/Test"
+            }
+        ]
+    }
+}
