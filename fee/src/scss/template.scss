@@ -5,24 +5,20 @@
 // It is NOT included in styles.scss,
 /////
 
-//Core
-@import "../../node_modules/normalize.css/normalize";
-
 //Variables
-$main-font-family: "Lato", sans-serif;
+$main-font-family: 'Lato', sans-serif;
 $container-width: 1000px;
 
 //Colors
-$wild-sand: #F5F5F5;
-$silver-chalice: #A7A7A7;
-$dove-gray: #6F6F6F;
+$wild-sand: #f5f5f5;
+$silver-chalice: #a7a7a7;
+$dove-gray: #6f6f6f;
 
 //Media sizes
 $screen-lg: 1200px;
 $screen-md: 922px;
 $screen-sm: 768px;
 $screen-xs: 576px;
-
 
 html,
 body {
