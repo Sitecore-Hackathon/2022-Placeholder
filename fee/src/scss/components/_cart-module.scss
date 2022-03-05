@@ -1,10 +1,24 @@
 .cart-module {
-  .cart-module__images {
-    img {
-      height: auto;
-      width: 100%;
-    } //img
-  } //cart-module__images
+  #cart-module__editor {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    .codeflask {
+      &:before {
+        z-index: 4;
+      } //before
+    } //codeflask
+
+    .codeflask__pre {
+      width: auto;
+    } //codeflask__pre
+
+    .codeflask__lines {
+      z-index: 5;
+    } //codeflask__lines
+  } //cart-module__editor
 
   .cart-module__large-image {
     pointer-events: none;
@@ -46,7 +60,8 @@
     } //cart-module__tshirt
   } //cart-module__large-image
 
-  .cart-module__atc {
+  .cart-module__atc,
+  .cart-module__btn-generate {
     &.disabled {
       .spinner-border {
         display: inline-block;

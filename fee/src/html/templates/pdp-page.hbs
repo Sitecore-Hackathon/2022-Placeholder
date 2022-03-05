@@ -29,7 +29,8 @@
 
     <main>
       <div class="container cart-module" data-module="cartModule"
-        data-endpoint="https://private-b8de3-2022placeholder.apiary-mock.com/add-to-cart">
+        data-endpoint="https://private-b8de3-2022placeholder.apiary-mock.com/add-to-cart"
+        data-code-endpoint="https://dress-code-sitecore.herokuapp.com/">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -39,8 +40,12 @@
 
         <div class="row g-lg-5 py-4">
           <div class="col-lg-7 text-center text-lg-start">
-            <div class="cart-module__images">
-              <img src="https://via.placeholder.com/900x600" alt="Image">
+            <div class="cart-module__editor-area">
+              <div id="cart-module__editor" data-languaje="js" class="border rounded-3 bg-light"></div>
+              <button class="w-100 btn btn-primary cart-module__btn-generate my-3" type="button">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Use this code on my T-shirt
+              </button>
             </div>
           </div>
 
@@ -66,7 +71,7 @@
                 <img src="../../images/tshirt-tag.png" alt="Image">
               </div>
               <div class="cart-module__code">
-                <img src="https://carbonnowsh.herokuapp.com/?code=Made+with+Love+in+India+by+Sumanjay&theme=darcula&backgroundColor=rgba(0,0,0,0)&paddingHorizontal=0&paddingVertical=0" alt="">
+                <img src="../../images/default-code.png">
               </div>
               <div class="cart-module__tshirt">
                 <img src="../../images/tshirt-placeholder.jpg" alt="Image">

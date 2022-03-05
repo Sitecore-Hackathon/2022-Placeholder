@@ -219,6 +219,8 @@ module.exports = {
     'clearTimeout': true,
     'Promise': true,
     'Map': true,
-    'Set': true
+    'Set': true,
+    'Blob': true,
+    'URL': true
   }
 };
