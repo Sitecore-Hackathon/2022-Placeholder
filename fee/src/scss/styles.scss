@@ -1,12 +1,8 @@
-//Main entry
+//Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 //Core
-@import
-"../../node_modules/normalize.css/normalize",
-"core/colorpalette",
-"../../node_modules/@verndale/color-palette/colors",
-"core/variables",
-"core/variables";
+@import "core/variables";
 
 //Components
 @import "components/**/*";

@@ -123,10 +123,10 @@ module.exports = {
             'after': true
           },
           'for': {
-            'after': false
+            'after': true
           },
           'while': {
-            'after': false
+            'after': true
           },
           'function': {
             'after': true
