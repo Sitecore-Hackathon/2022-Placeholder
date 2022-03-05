@@ -10,5 +10,6 @@ namespace Dresscode.Feature.Content.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string OrderNumber { get; set; }
+
     }
 }

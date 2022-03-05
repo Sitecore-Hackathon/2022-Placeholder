@@ -221,14 +221,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration\ServicesConfigurator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SitecoreSend\EmailService.cs" />
     <Compile Include="SitecoreSend\IEmailService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <Content Include="App_Config\include\Foundation.Services.ServicesConfigurator.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
