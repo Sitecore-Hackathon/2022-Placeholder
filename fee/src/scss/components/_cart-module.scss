@@ -22,4 +22,19 @@
       display: none;
     } //spinner-border
   } //cart-module__atc
+
+  .cart-module__row {
+    .cart-module__image {
+      margin-bottom: 20px;
+
+      img {
+        height: auto;
+        width: 100%;
+      } //img
+    } //cart-module__image
+
+    .cart-module__info {
+      margin-bottom: 20px;
+    } //cart-module__info
+  } //cart-module__row
 } //cart-module
