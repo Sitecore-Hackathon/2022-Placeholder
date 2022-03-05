@@ -21,20 +21,20 @@ namespace Dresscode.Feature.Content.Controllers
         {
             var model = new OrderConfirmation()
             {
-                Total = 12.23m,
+                Total = 34.98m,
                 Products = new List<Product>()
                 {
                     new Product()
                     {
-                        Name = "A",
-                        Description = "D",
-                        Price = 11.05m
+                        Name = "Awesome T-shirt",
+                        Description = "A clean code shirt",
+                        Price = 29.99m
                     },
                     new Product()
                     {
-                        Name = "B",
-                        Description = "D",
-                        Price = 21.05m
+                        Name = "Hello World T-Shirt",
+                        Description = "You get what you pay for",
+                        Price = 4.99m
                     }
                 },
                 BillingInformation = new BillingInformation()
