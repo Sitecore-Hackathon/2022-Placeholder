@@ -300,7 +300,9 @@
     <Compile Include="Controllers\ProductListingController.cs" />
     <Compile Include="Configuration\ServicesConfigurator.cs" />
     <Compile Include="Controllers\CheckoutController.cs" />
+    <Compile Include="Models\BillingInformation.cs" />
     <Compile Include="Models\OrderConfirmation.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Pipelines\LoadRoutes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -317,7 +319,7 @@
     <Content Include="Views\ProductGrid.cshtml" />
     <Content Include="Views\ProductDetail.cshtml" />
     <Content Include="Views\Cart.cshtml" />
-    <Content Include="Views\Checkout.cshtml" />
+    <Content Include="Views\Checkout\Index.cshtml" />
     <Content Include="Views\ThankYou.cshtml" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">
