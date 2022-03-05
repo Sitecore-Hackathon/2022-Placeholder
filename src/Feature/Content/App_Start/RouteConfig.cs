@@ -11,6 +11,10 @@ namespace Dresscode.Feature.Content
                 name: "CheckoutPurchase",
                 url: "api/{controller}/{action}"
             );
+            routes.MapRoute(
+                name: "AddtoCart",
+                url: "api/{controller}/{action}"
+            );
         }
     }
 }
