@@ -288,11 +288,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\styles.css" />
+    <Content Include="images\default-code.png" />
     <Content Include="images\logo-verndale.png" />
     <Content Include="images\svgsheet.svg" />
+    <Content Include="images\tshirt-placeholder.jpg" />
+    <Content Include="images\tshirt-tag.png" />
+    <Content Include="js\2.bundle.js" />
+    <Content Include="js\3.bundle.js" />
     <Content Include="js\main.bundle.js" />
     <Content Include="js\vendors~main.bundle.js" />
     <Content Include="Views\Layout\MainLayout.cshtml" />
+    <Content Include="css\maps\styles.css.map" />
+    <Content Include="js\2.bundle.js.map" />
+    <Content Include="js\3.bundle.js.map" />
+    <Content Include="js\main.bundle.js.map" />
+    <Content Include="js\vendors~main.bundle.js.map" />
     <None Include="packages.config" />
     <None Include="Web.config" />
     <None Include="Web.Debug.config">

@@ -4,7 +4,9 @@
 @{
 
 }
-<div class="container cart-module" data-module="cartModule" data-endpoint="https://private-b8de3-2022placeholder.apiary-mock.com/add-to-cart">
+<div class="container cart-module" data-module="cartModule"
+     data-endpoint="https://private-b8de3-2022placeholder.apiary-mock.com/add-to-cart"
+     data-code-endpoint="https://dress-code-sitecore.herokuapp.com/">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -14,16 +16,15 @@
 
     <div class="row g-lg-5 py-4">
         <div class="col-lg-7 text-center text-lg-start">
-            <div class="cart-module__images">
-                <div class="cart-module__image-front">
-                    <img src="https://via.placeholder.com/900x600" alt="Image">
-                </div>
-              
-                <div class="cart-module__image-back">
-                    <img src="https://via.placeholder.com/900x600" alt="Image">
-                </div>
+            <div class="cart-module__editor-area">
+                <div id="cart-module__editor" data-languaje="js" class="border rounded-3 bg-light"></div>
+                <button class="w-100 btn btn-primary cart-module__btn-generate my-3" type="button">
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    Use this code on my T-shirt
+                </button>
             </div>
         </div>
+
         <div class="col-md-10 mx-auto col-lg-5">
             <div class="p-4 p-md-5 border rounded-3 bg-light">
                 <h1>Lorem Ipsum 1</h1>
@@ -37,6 +38,20 @@
                 <small class="text-muted">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare molestie mauris, porta pellentesque justo condimentum et. Maecenas aliquam magna eget felis tincidunt aliquam.
                 </small>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="cart-module__large-image">
+                <div class="cart-module__tag">
+                    <img src="../../images/tshirt-tag.png" alt="Image">
+                </div>
+                <div class="cart-module__code">
+                    <img src="../../images/default-code.png">
+                </div>
+                <div class="cart-module__tshirt">
+                    <img src="../../images/tshirt-placeholder.jpg" alt="Image">
+                </div>
             </div>
         </div>
     </div>
