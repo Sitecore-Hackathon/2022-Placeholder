@@ -239,7 +239,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <Content Include="App_Config\include\Foundation.Services.ServicesConfigurator.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

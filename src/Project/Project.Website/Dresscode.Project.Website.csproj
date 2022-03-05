@@ -299,6 +299,8 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Config\" />
+    <Folder Include="Configuration\" />
     <Folder Include="Controllers\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\" />

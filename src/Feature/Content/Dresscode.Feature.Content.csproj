@@ -298,6 +298,7 @@
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ProductListingController.cs" />
+    <Compile Include="Configuration\ServicesConfigurator.cs" />
     <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Models\OrderConfirmation.cs" />
     <Compile Include="Pipelines\LoadRoutes.cs" />
@@ -307,6 +308,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Views\Component.cshtml" />
     <Content Include="App_Config\include\LoadRoutes.config" />
+    <Content Include="App_Config\include\Dresscode.Feature.Content.ServicesConfigurator.config" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
