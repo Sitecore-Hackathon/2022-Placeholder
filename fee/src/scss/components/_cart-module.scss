@@ -1,0 +1,25 @@
+.cart-module {
+  .cart-module__images {
+    img {
+      height: auto;
+      width: 100%;
+    } //img
+
+    .cart-module__image-front,
+    .cart-module__image-back {
+      margin-bottom: 20px;
+    } //cart-module__image-front back
+  } //cart-module__images
+
+  .cart-module__atc {
+    &.disabled {
+      .spinner-border {
+        display: inline-block;
+      } //spinner-border
+    } //disabled
+
+    .spinner-border {
+      display: none;
+    } //spinner-border
+  } //cart-module__atc
+} //cart-module
