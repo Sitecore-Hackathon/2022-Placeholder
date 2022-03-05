@@ -230,7 +230,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Configuration\ServicesConfigurator.cs" />
     <Compile Include="OrderCloud\IOrderCloudService.cs" />
     <Compile Include="OrderCloud\OrderCloudService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
