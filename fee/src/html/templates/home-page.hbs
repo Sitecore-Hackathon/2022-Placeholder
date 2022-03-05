@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>head title='Home page'}}
+</head>
+<body>
+  {{>header}}
+
+  <section role="main">
+    <h1>Home page</h1>
+
+    {{>button title="Button text" classes="btn btn--primary"}}
+    {{>list data='{"items": ["item 1", "item 2"]}' }}
+
+    <div>
+      <svg>
+        <use xlink:href="#arrow-right"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="test" data-component="Foo">
+    Component
+  </div>
+
+  <!-- Footer -->
+  {{>footer}}
+</body>
+</html>
