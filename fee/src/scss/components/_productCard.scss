@@ -1,0 +1,21 @@
+.product-card {
+  .card-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    width: 100%;
+  } //card-image
+
+  .btn {
+    &.disabled {
+      .spinner-border {
+        display: inline-block;
+      } //spinner-border
+    } //disabled
+
+    .spinner-border {
+      display: none;
+    } //spinner-border
+  } //btn
+} //productCard
