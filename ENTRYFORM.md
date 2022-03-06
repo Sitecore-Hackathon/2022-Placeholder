@@ -46,9 +46,9 @@ All dependencies for this module should be isntalled during the projects publish
 _Remove this subsection if your entry does not require any configuration that is not fully covered in the installation instructions already_
 
 ## Usage instructions
-To test the product listing that is located at the root folder, any changes which are done 
-To test Sendmail the url for the checkout for is on {siteHostname}/Checkout. After filling up the form an email will be sent to the mail, (dont use outlook because it seems tpo be blocking these mails before reaching the spam folder)
-To test the Custom Shirt generator go to {siteHostname}/Product, follow the instructions as depicted on the video.
+1. To test the product listing that is located at the root folder, any changes which are done 
+2. To test Sendmail the url for the checkout for is on {siteHostname}/Checkout. After filling up the form an email will be sent to the mail, (dont use outlook because it seems tpo be blocking these mails before reaching the spam folder)
+3. To test the Custom Shirt generator go to {siteHostname}/Product, follow the instructions as depicted on the video.
 
 
 
