@@ -56,4 +56,5 @@ _Remove this subsection if your entry does not require any configuration that is
 
 
 ## Comments
-For the application we hav tried to follow helix architecture and we have created wrappers for both OrderCloud and SendMail applciations, this wrappers are located unde project: Dresscode.Foundation.Services in the Solution.
+1. For the application we hav tried to follow helix architecture and we have created wrappers for both OrderCloud and SendMail applciations, this wrappers are located unde project: Dresscode.Foundation.Services in the Solution.
+2. If you would like to check the FE code switch to FE branch and go to 2022-Placeholder\fee, there lies the FE solution.
