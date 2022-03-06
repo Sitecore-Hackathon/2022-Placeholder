@@ -1,0 +1,27 @@
+﻿@using OrderCloud.SDK
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model List<OrderCloud.SDK.BuyerProduct>
+<div class="py-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            @foreach (var productItem in Model)
+            {
+                <div class="col">
+                    <div class="product-card card shadow-sm">
+                        <a href="#" class="card-image" style="background-image: url('https://ih1.redbubble.net/image.263500281.7928/ssrco,slim_fit_t_shirt,flatlay,fafafa:ca443f4786,front,wide_portrait,750x1000-bg,f8f8f8.u4.jpg');"></a>
+
+                        <div class="card-body">
+                            <h5><a href="#" class="link-secondary">@productItem.Name</a></h5>
+                            <p class="card-text text-muted">@productItem.Description</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <big><span class="badge bg-dark">@productItem.PriceSchedule.PriceBreaks.First().Price</span></big>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</div>

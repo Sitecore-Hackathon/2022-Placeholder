@@ -1,0 +1,23 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="https://tentwosc.dev.local" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="Views\Header.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{9BE073C6-88DE-4FA7-8524-C3C388C1B5CD}</Item>
+  </File>
+  <File Include="Views\Footer.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{ED30C095-5A17-49E8-B70C-E8935DA32C57}</Item>
+  </File>
+  <File Include="Views\Hero.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{651C6FB0-21EF-4AF7-84CE-5A2146160398}</Item>
+  </File>
+  <File Include="Views\ProductGrid.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{72FA1618-C002-4F38-A5FC-A569899D74B0}</Item>
+  </File>
+  <File Include="Views\ProductDetail.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{411A9F0C-4280-4BC9-A39E-C2A1D2347BBE}</Item>
+  </File>
+  <File Include="Views\Cart.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B45D27C7-0A2C-40FA-B024-38D21B41B691}</Item>
+  </File>
+</Project>

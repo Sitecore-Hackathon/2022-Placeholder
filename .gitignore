@@ -18,6 +18,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.pubxml
 
 #Ignore thumbnails created by Windows
 Thumbs.db
