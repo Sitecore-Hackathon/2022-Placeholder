@@ -36,7 +36,7 @@ All dependencies for this module should be isntalled during the projects publish
 3. Rebuild Solution
 4. Edit Publish profile for projects Dresscode.Project.Website and Dresscode.Feature.Content to deploy to your local sitecore installation, make sure debug mode is selected.
 5. Publish Dresscode.Project.Website and Dresscode.Feature.Content projects
-6. After publishing and site comes back install Sitecore Contetnt Package located at: , install this package with option merge=>clear
+6. After publishing and site comes back install the Sitecore Content Package located at:  , install this package with option merge=>clear
 7. Full site publish
 8. Go to Home 
 
